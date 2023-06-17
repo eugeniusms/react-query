@@ -17,6 +17,10 @@ const FEATURES = [
     name: 'Super Heroes React Query On Click',
     route: '/superheroes-react-query-on-click',
   },
+  {
+    name: 'Super Heroes React Query Callback',
+    route: '/superheroes-react-query-callback',
+  },
 ];
 
 export const Navbar = () => {
