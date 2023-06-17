@@ -1,8 +1,8 @@
-import { SuperHeroes } from '@components/modules/superheroes/SuperHeroes';
+import { Traditional } from '@components/modules/superheroes/Traditional';
 import type { NextPage } from 'next';
 
 const SuperHeroesPage: NextPage = () => {
-  return <SuperHeroes />;
+  return <Traditional />;
 };
 
 export default SuperHeroesPage;

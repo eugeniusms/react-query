@@ -1,8 +1,8 @@
-import { SuperHeroesReactQuery } from '@components/modules/superheroes/SuperHeroesReactQuery';
+import { ReactQuery } from '@components/modules/superheroes/ReactQuery';
 import type { NextPage } from 'next';
 
 const SuperHeroesReactQueryPage: NextPage = () => {
-  return <SuperHeroesReactQuery />;
+  return <ReactQuery />;
 };
 
 export default SuperHeroesReactQueryPage;

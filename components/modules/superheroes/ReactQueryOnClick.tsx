@@ -11,18 +11,22 @@ const fetchSuperHeroes = async () => {
   return data;
 };
 
-export const SuperHeroesReactQuery = () => {
-  const { isLoading, data, isError, error, isFetching } = useQuery(
+export const ReactQueryOnClick = () => {
+  const { isLoading, data, isError, error, isFetching, refetch } = useQuery(
+    /* 
+      data yang difetch akan disimpan ke dalam cache 
+      dengan key 'superheroes' 
+    */
     'superheroes',
     fetchSuperHeroes,
     {
-      cacheTime: 5000,
+      enabled: false,
     }
   );
 
   console.log({ isLoading, isFetching });
 
-  if (isLoading) {
+  if (isLoading || isFetching) {
     return <div>Loading...</div>;
   }
 
@@ -33,6 +37,7 @@ export const SuperHeroesReactQuery = () => {
   return (
     <>
       <h2>Super Heroes React Query Page</h2>
+      <button onClick={refetch}>Fetch Super Heroes</button>
       {data?.map((hero: Superhero) => (
         <div key={hero.id}>{hero.name}</div>
       ))}

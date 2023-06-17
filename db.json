@@ -19,6 +19,16 @@
       "id": 4,
       "name": "Hulk",
       "alter_ego": "Bruce Banner"
+    },
+    {
+      "id": 5,
+      "name": "Black Widow",
+      "alter_ego": "Natasha Romanoff"
+    },
+    {
+      "id": 6,
+      "name": "Hawkeye",
+      "alter_ego": "Clint Barton"
     }
   ]
 }

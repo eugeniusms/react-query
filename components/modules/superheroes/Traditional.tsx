@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 
-export const SuperHeroes = () => {
+export const Traditional = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [data, setData] = useState([]);
   const [error, setError] = useState('');
@@ -26,7 +26,7 @@ export const SuperHeroes = () => {
   if (error) {
     return <div>{error}</div>;
   }
-    
+
   return (
     <>
       <h2>Super Heroes Page</h2>
