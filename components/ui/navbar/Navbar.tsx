@@ -29,6 +29,10 @@ const FEATURES = [
     name: 'Super Heroes React Query Custom Query Hook',
     route: '/superheroes/react-query/custom-query-hook',
   },
+  {
+    name: 'Super Heroes React Query Parallel Queries',
+    route: '/superheroes/react-query/parallel-queries',
+  },
 ];
 
 export const Navbar = () => {

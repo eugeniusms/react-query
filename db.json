@@ -30,5 +30,31 @@
       "name": "Hawkeye",
       "alter_ego": "Clint Barton"
     }
+  ],
+  "friends": [
+    {
+      "id": 1,
+      "name": "War Machine"
+    },
+    {
+      "id": 2,
+      "name": "Falcon"
+    },
+    {
+      "id": 3,
+      "name": "Winter Soldier"
+    },
+    {
+      "id": 4,
+      "name": "Scarlet Witch"
+    },
+    {
+      "id": 5,
+      "name": "Vision"
+    },
+    {
+      "id": 6,
+      "name": "Natasha Romanoff"
+    }
   ]
 }
