@@ -11,15 +11,19 @@ const FEATURES = [
   },
   {
     name: 'Super Heroes React Query',
-    route: '/superheroes-react-query',
+    route: '/superheroes/react-query/basic',
   },
   {
     name: 'Super Heroes React Query On Click',
-    route: '/superheroes-react-query-on-click',
+    route: '/superheroes/react-query/on-click',
   },
   {
     name: 'Super Heroes React Query Callback',
-    route: '/superheroes-react-query-callback',
+    route: '/superheroes/react-query/callback',
+  },
+  {
+    name: 'Super Heroes React Query Data Transformation',
+    route: '/superheroes/react-query/data-transformation',
   },
 ];
 
