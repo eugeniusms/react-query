@@ -1,3 +1,4 @@
+import { Navbar } from '@components/ui';
 import { Head, Html, Main, NextScript } from 'next/document';
 
 export default function Document() {
@@ -11,6 +12,7 @@ export default function Document() {
           rel="stylesheet"
         />
       </Head>
+      <Navbar />
       <body>
         <Main />
         <NextScript />
