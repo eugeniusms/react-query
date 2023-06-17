@@ -25,6 +25,10 @@ const FEATURES = [
     name: 'Super Heroes React Query Data Transformation',
     route: '/superheroes/react-query/data-transformation',
   },
+  {
+    name: 'Super Heroes React Query Custom Query Hook',
+    route: '/superheroes/react-query/custom-query-hook',
+  },
 ];
 
 export const Navbar = () => {
