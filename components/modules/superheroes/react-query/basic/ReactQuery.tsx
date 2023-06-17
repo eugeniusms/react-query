@@ -1,6 +1,6 @@
 import axios from 'axios';
+import Link from 'next/link';
 import { useQuery } from 'react-query';
-
 interface Superhero {
   id: number;
   name: string;
@@ -80,7 +80,9 @@ export const ReactQuery = () => {
     <>
       <h2>Super Heroes React Query Page</h2>
       {data?.map((hero: Superhero) => (
-        <div key={hero.id}>{hero.name}</div>
+        <div key={hero.id}>
+          <Link href={`/superheroes/${hero.id}`}>{hero.name}</Link>
+        </div>
       ))}
     </>
   );
