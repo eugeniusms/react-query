@@ -13,7 +13,7 @@ export const SuperHeroesReactQuery = () => {
   }
   return (
     <>
-      <h2>Super Heroes Page</h2>
+      <h2>Super Heroes React Query Page</h2>
       {data?.map((hero: any) => (
         <div key={hero.id}>{hero.name}</div>
       ))}
