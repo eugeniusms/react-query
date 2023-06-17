@@ -12,10 +12,15 @@ const fetchSuperHeroes = async () => {
 };
 
 export const SuperHeroesReactQuery = () => {
-  const { isLoading, data, isError, error } = useQuery(
+  const { isLoading, data, isError, error, isFetching } = useQuery(
     'superheroes',
-    fetchSuperHeroes
+    fetchSuperHeroes,
+    {
+      cacheTime: 5000,
+    }
   );
+
+  console.log({ isLoading, isFetching });
 
   if (isLoading) {
     return <div>Loading...</div>;
