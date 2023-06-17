@@ -33,6 +33,10 @@ const FEATURES = [
     name: 'Super Heroes React Query Parallel Queries',
     route: '/superheroes/react-query/parallel-queries',
   },
+  {
+    name: 'Super Heroes React Query Dynamic Parallel Queries',
+    route: '/superheroes/react-query/dynamic-parallel-queries',
+  },
 ];
 
 export const Navbar = () => {
